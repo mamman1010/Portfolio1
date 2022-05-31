@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ab04cdb204.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                      <li><a href="about.html">ABOUT</a></li>  
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="text-box">
+        <img src="images/IMG_20200716_131045_429.JPG" alt="my image">
+        <p>Hi, I'm Mamman. I'm a front end developer working with HTML, CSS AND JAVASCRIPT.
+            <br>I have experience in building very cool functioning websites.
+           <br> Well organised person, problem solver, with great attention to detail.
+           <br> Big football fan, boxing and swimming.
+            <br> very interested in the frontend spectrum and working on great projects with 
+            <br> cool people.
+            <a href="">Let's do this!</a>
+        </p>
+    </div>
+    <!--script--> 
+   
+         <script>
+        var navLinks=document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+   <section class="footer">
+    <h4>About Me</h4>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-github"></i>
+        </div>
+        <p>Made with  <i class="fa fa-heart-o"></i></p>
+</section>
+
+    
+</body>
+</html>

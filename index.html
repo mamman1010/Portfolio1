@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ab04cdb204.js" crossorigin="anonymous"></script>
+    <!--fontfamily!-->
+    <!--font awesome-->
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                      <li><a href="about.html">ABOUT</a></li>  
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+    <div class="text-box">
+        <h1>FRONT END NINJA</h1>
+        <p>Hello, I'm Mamman. I can build you a  <br> 
+            stunning website with CSS, HTML and Javascript. 
+            <br> Hit me up ASAP!</p>
+            <a href="contact.html" class="connect-btn">Hire Me</a>
+           
+  
+    </div>
+    </section>
+    <section class="previous-work">
+        <h1>My Skills</h1>
+        <p>With the use of HTML, CSS and Javascript, I can get you <br>
+         a smooth functioning website.</p>
+            <div class="row">
+                <div class="previous-work-col">
+                    <h3>HTML</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                        Maiores soluta iste, <br>
+                        tempore voluptatibus, quidem voluptatum ipsum esse rem
+                        <br> repudiandae nihil adipisci accusantium asperiores architecto, 
+                        <br> tempora et porro fugit odit sit?</p>
+                </div>
+                <div class="previous-work-col">
+                    <h3>CSS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                        Maiores soluta iste, <br>
+                        tempore voluptatibus, quidem voluptatum ipsum esse rem
+                        <br> repudiandae nihil adipisci accusantium asperiores architecto, 
+                        <br> tempora et porro fugit odit sit?</p>
+                </div>
+                <div class="previous-work-col">
+                    <h3>JAVASCRIPT</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                        Maiores soluta iste, <br>
+                        tempore voluptatibus, quidem voluptatum ipsum esse rem
+                        <br> repudiandae nihil adipisci accusantium asperiores architecto, 
+                        <br> tempora et porro fugit odit sit?</p>
+                </div>
+            </div>
+
+            </section>
+
+            <section class="More-works">
+                <h1>SOME OF MY LATEST WORK</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                    Maiores soluta iste, <br>
+                    tempore voluptatibus, quidem voluptatum ipsum esse rem
+                    <br> repudiandae nihil adipisci accusantium asperiores architecto, 
+                    <br> tempora et porro fugit odit sit?</p>
+                   
+                    <div class="row">
+                        <div class="campus-col">
+                            <img src="images/1_GMtJn-Jecyj9uQGVmg3Tog.jpeg" alt="">
+                            <div class="layer">
+                                <h3>SPARROW</h3>
+
+                            </div>
+                        </div>
+                        <div class="campus-col">
+                            <img src="images/1_GMtJn-Jecyj9uQGVmg3Tog.jpeg" alt="">
+                            <div class="layer">
+                                <h3>BOLTON</h3>
+
+                            </div>
+                        </div>
+                        <div class="campus-col">
+                            <img src="images/1_GMtJn-Jecyj9uQGVmg3Tog.jpeg" alt="">
+                            <div class="layer">
+                                <h3>SHAKESPARE</h3>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+            </section>
+<!------footer----->
+            <section class="footer">
+                <h4>About Me</h4>
+                    <div class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-whatsapp"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-github"></i>
+                    </div>
+                    <p>Made with  <i class="fa fa-heart-o"></i></p>
+            </section>
+
+    <script>
+        var navLinks=document.getElementById("navlinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+   
+</body>
+</html>
