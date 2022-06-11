@@ -7,19 +7,25 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/ab04cdb204.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,700;0,900;1,200;1,400;1,600&display=swap" rel="stylesheet">
+   <!-- <script src="javascript.js"></script>-->
     <!--fontfamily!-->
     <!--font awesome-->
 </head>
 <body>
     <section class="header">
         <nav>
+            <a href="index.html"><img src=""></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="blog.html">BLOG</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
-                      <li><a href="about.html">ABOUT</a></li>  
+                     <li><a href="about.html">ABOUT</a></li>  
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -34,7 +40,9 @@
            
   
     </div>
+     <script src="javascript.js"></script>
     </section>
+
     <section class="previous-work">
         <h1>My Skills</h1>
         <p>With the use of HTML, CSS and Javascript, I can get you <br>
@@ -100,7 +108,8 @@
                         </div>
 
                     </div>
-
+      
+                       
             </section>
 <!------footer----->
             <section class="footer">
@@ -115,15 +124,7 @@
                     <p>Made with  <i class="fa fa-heart-o"></i></p>
             </section>
 
-    <script>
-        var navLinks=document.getElementById("navlinks");
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        function hideMenu(){
-            navLinks.style.right="-200px";
-        }
-    </script>
+   
    
 </body>
 </html>
