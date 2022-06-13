@@ -12,6 +12,14 @@
     background-size: cover;
     position: relative;  
 }
+.headers{
+    min-height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/moon-night-clouds-stars-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;  
+}
 nav{
     display: flex;
     padding: 2% 6%;
@@ -131,6 +139,7 @@ nav .fa{
     .row{
         flex-direction: column;
     }
+   
 }
 /*previous work*/
 .previous-work{
@@ -151,7 +160,7 @@ p{
     padding: 10px;
 }
 .row{
-    margin-top: 5%;
+    margin: 5px;
     display: flex;
     justify-content: space-between;
 }
@@ -224,12 +233,12 @@ h3{
     flex-direction: column;
     width:100%;
     text-align: center;
-    padding: 30px 0; 
+   padding-top: 5%;
     margin-bottom: 2px;  
+    top: 100%;
+    position: relative;    
 }
 .footer h4{
-    margin-bottom: 25px;
-    margin-top: 20px;
     font-weight: 600;
 }
 .icons.fa{
@@ -249,28 +258,27 @@ fa-heart-o{
 }
 .first-row{
     flex-basis: 31%;
+    background: #fff3f3;
     border-radius: 10px;
-    margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    position: relative;
 }
 .first-row img{
     justify-content: center;
     align-items: center;
     width: 60%;
-   
     border-radius: 10%;
    
 }
 .first-row h3{
-    color: #fff;
+    color: #777;
     text-align: center;
 }
 .first-row p{
-    color: #fff;
+    color: #777;
     text-align: center;
 }
-
 .fname{
     background: #fff3f3;
     width: 25%;
@@ -294,7 +302,6 @@ fa-heart-o{
 }
 .form {
     padding-top: 5%;
-    padding-left: 5%;
     display: flex;
     box-sizing: 20px;
     flex-direction: column;
@@ -305,4 +312,33 @@ fa-heart-o{
     width: 25%;
     padding: 30px 30px;
     background: #fff3f3;
+}
+.text-box-about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+    width: 90%;
+    left: 7%;
+    color: #fff;
+    position: relative;
+   margin-top: 5%;
+   
+}
+.text-box-about img{
+    width: 50%;
+    max-width: 120px;
+    height: auto;
+    border-radius: 35%;
+    align-items: center;
+}
+.text-box-about img:hover{
+    max-width: 200px;
+    border-radius: 50%;
+    transition: 1s;
+}
+.text-box-about p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #777;
 }
